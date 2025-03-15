@@ -18,3 +18,7 @@ pos1 = [3, 4]
 pos2 = [7, 9]
 dep = deplacement(pos1, pos2)
 print(dep)  # Output: [4, 5]
+
+dx, dy = abs(dep[0]), abs(dep[1])
+Lx = max(2 * dx + 1, 3)
+Ly = max(2 * dy + 1, 3)
